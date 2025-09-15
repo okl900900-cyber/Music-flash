@@ -1,0 +1,240 @@
+body {
+    background-color: #141414;
+    border: 1px #000000 solid;
+    margin: 0;
+    font-family: "inter";
+    font-weight: 400;
+    padding: 50px 100px;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+header {
+    height: 298px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-and-artist {
+    width: 414px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1 {
+    display: block;
+    margin-left: 15px;
+    margin-top: 0;
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 300;
+}
+
+strong {
+    font-weight: 900;
+}
+
+.artist-info {
+    background-color: #1B1A1A;
+    height: 159px;
+    width: 100%;
+    border: #2F2F2F 1px solid;
+    border-radius: 6px;
+    display: flex;
+}
+
+.current-artist {
+    display: inline-block;
+    align-self: center;
+    margin-left: 30px;
+}
+
+.current-data {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.current-data ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.current-data ul li {
+    font-size: 14px;
+    color: #888888;
+    font-weight: 400;
+    margin: 5px 0;
+}
+
+.current-data ul li strong {
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.current-data div {
+    width: 148px;
+    height: 30px;
+    background-color: #1B49FF;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.current-data div:hover {
+    cursor: pointer;
+    background-color: #4369ff;
+}
+
+.current-data div span {
+    display: block;
+    padding-top: 5px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.logo {
+    position: relative;
+    width: 634px;
+}
+
+.foreground {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.sections {
+    height: 39x;
+    width: 50%;
+    margin-left: 15px;
+}
+
+.sections ul {
+    width: 100%;
+    height: 100%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.sections ul li {
+    width: 107px;
+    text-align: center;
+    padding-bottom: 4px;
+}
+
+.sections ul li:first-child {
+    border-bottom: #1B49FF 5px solid;
+}
+
+main {
+    width: 100%;
+    background-color: #1B1A1A;
+    border: #2F2F2F 1px solid;
+    border-radius: 6px;
+    padding: 0 14px;
+}
+
+main ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.track {
+    width: 100%;
+    height: 70px;
+    background-color: #141414;
+    margin: 9px 0;
+    border-radius: 3px;
+    padding: 0 30px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main li:first-child div {
+    border-radius: 10px 10px 3px 3px;
+}
+
+.track div:nth-child(2) {
+    display: inline-block;
+    text-align:left;
+    flex-basis: 30%;
+    padding-left: 25px;
+    box-sizing: border-box;
+    color: #888888;
+}
+
+.track img:nth-child(3):hover {
+    cursor: pointer;
+}
+
+.track div:nth-child(4) {
+    display: inline-block;
+    text-align:left;
+    padding-left: 15px;
+    box-sizing: border-box;
+    flex-grow: 1;
+}
+
+main li:last-child div:nth-child(4) span span {
+    text-decoration: underline;
+}
+
+.track img:nth-child(5):hover {
+    cursor: pointer;
+}
+
+main > div {
+    text-align: right;
+    margin: 15px 15px 20px 15px;
+}
+main > div span {
+    color: #676767;
+}
+
+main > div span strong {
+    color: #A7A7A7;
+    font-weight: 400;
+}
+
+nav  {
+    width: 100%;
+    margin-top: 25px;
+}
+
+nav > ul {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+}
+
+.navigation-list {
+    margin: 0 30px 0 50px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.navigation-list li {
+    color: #676767;
+    margin: 4px 0;
+}
+
+.navigation-list li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
